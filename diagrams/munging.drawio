@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-01-14T12:53:22.159Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="fb5wbk2Z3aXdgAlErHyU" version="22.1.18" type="device">
+  <diagram name="Page-1" id="rYG3-kG4QNcU8PEsfMht">
+    <mxGraphModel dx="1304" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-1" target="ZiuPJiyLk-KCCcckI_TQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-1" value="&lt;font color=&quot;#ffffff&quot;&gt;Raw Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#009900;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="335" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-2" target="ZiuPJiyLk-KCCcckI_TQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-2" target="ZiuPJiyLk-KCCcckI_TQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-2" target="ZiuPJiyLk-KCCcckI_TQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-2" target="ZiuPJiyLk-KCCcckI_TQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-2" value="Clean data (e.g., remove null target values, remove highly correlated features, convert, keep top 15 to 30 values in categorical features&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-3" value="Text" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-4" value="DateTime" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-5" value="Numeric" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-6" value="Categorical" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="640" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-8" target="ZiuPJiyLk-KCCcckI_TQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-8" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=-180;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-9" target="ZiuPJiyLk-KCCcckI_TQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-9" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=-180;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-10" target="ZiuPJiyLk-KCCcckI_TQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-10" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=-180;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-11" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=-180;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="650" y="390" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-16" value="Replace nulls with most frequent value and one-hot encode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="670" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-17" value="Conver to datetime format and bin by month/year" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-18" value="Min-max scale values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-19" value="NLTK tokenize text. Use Word2Vec to generate vectors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="90" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-20" value="Processed Data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="340" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" edge="1" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-11" target="ZiuPJiyLk-KCCcckI_TQ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

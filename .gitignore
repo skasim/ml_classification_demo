@@ -1,0 +1,8 @@
+__pycache__/
+.conda/
+.ipynb_checkpoints
+data/GoogleNews*
+.DS_Store
+data/ds*
+models/trained_model.pk
+munged_data/*

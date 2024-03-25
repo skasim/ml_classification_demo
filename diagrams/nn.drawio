@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" modified="2024-01-14T14:12:28.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="T6Mi27092D61hQ6-DCMt" version="22.1.18" type="device">
+  <diagram name="Page-1" id="rYG3-kG4QNcU8PEsfMht">
+    <mxGraphModel dx="1304" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#000000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.017;exitY=0.617;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-1" target="hlE8OtcCCmfA9VNcsZgR-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="444" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="262" />
+              <mxPoint x="220" y="261" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-1" value="&lt;font color=&quot;#ffffff&quot;&gt;Load Data&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#009900;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="76" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="hlE8OtcCCmfA9VNcsZgR-1" target="ZiuPJiyLk-KCCcckI_TQ-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="306.5" y="361" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-4" value="Train" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="451" y="231" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-5" value="Test" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="640" y="231" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-8" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=-180;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="265" y="299" width="118" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;strokeColor=#FFFFFF;" parent="1" source="ZiuPJiyLk-KCCcckI_TQ-4" target="ZiuPJiyLk-KCCcckI_TQ-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="651" y="307" as="sourcePoint" />
+            <mxPoint x="571" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-10" value="" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rotation=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="457" y="99" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZiuPJiyLk-KCCcckI_TQ-19" value="Explode product detail vectors. Scale Features. Apply PCA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="282" y="360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hlE8OtcCCmfA9VNcsZgR-1" value="Apply Transformations" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#00CC00;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="262" y="231" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hlE8OtcCCmfA9VNcsZgR-3" value="With MLP, Adam Optimizer, and Cross-Entropy Loss" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="477" y="133" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
